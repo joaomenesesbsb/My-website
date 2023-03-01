@@ -2,6 +2,7 @@
     background-color: var(--color-bg-secundary);
     width: 100%;
     border-radius: 10px;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
 }
