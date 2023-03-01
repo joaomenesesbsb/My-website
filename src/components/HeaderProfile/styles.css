@@ -22,7 +22,7 @@ header {
 }
 
 .links-content {
-    display: flex;
+    display: none;
 }
 
 .nav-item {
@@ -33,4 +33,11 @@ header {
     width: 62px;
     height: 62px;
     border-radius: 50%;
+}
+
+@media (min-width: 576px){
+    .links-content{
+        display: inline;
+        display: flex;
+    }
 }
