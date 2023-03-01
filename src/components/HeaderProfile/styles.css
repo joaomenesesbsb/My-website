@@ -1,0 +1,35 @@
+header {
+    background-color: var(--color-bg-header);
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-left h1 {
+    color: var(--color-font-tertiary);
+}
+
+.nav-rigth {
+    color: var(--color-font-tertiary);
+    display: flex;
+    align-items: center;
+}
+
+.links-content {
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 10px;
+}
+
+.nav-rigth img {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+}
