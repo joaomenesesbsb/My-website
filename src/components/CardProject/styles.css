@@ -1,0 +1,27 @@
+.card-project-content {
+    background-color: var(--color-bg-secundary);
+    max-height: 200px;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+}
+
+
+.card-project-left img{
+    height: 200px;
+    border-radius: 20px 0 0 20px;
+}
+
+.card-project-rigth {
+    padding: 20px;
+}
+
+.card-project-rigth h3 {
+    font-size: 24px;
+    color: var(--color-font-secundary);
+}
+
+.card-project-rigth p {
+    font-size: 16px;
+    color: var(--color-font-secundary);
+}

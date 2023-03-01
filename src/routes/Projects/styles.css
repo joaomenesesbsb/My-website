@@ -1,0 +1,6 @@
+#projects-catalog h2 {
+    font-size: 42px;
+    color: var(--color-font-secundary);
+    text-align: center;
+    margin: 40px 0;
+}
