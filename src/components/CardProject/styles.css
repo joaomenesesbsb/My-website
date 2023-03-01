@@ -1,6 +1,6 @@
 .card-project-content {
     background-color: var(--color-bg-secundary);
-    width: 320px;
+    width: 100%;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -8,7 +8,7 @@
 
 
 .card-project-left img{
-    width: 320px;
+    width: 100%;
     border-radius: 10px 10px 0 0;
 }
 
