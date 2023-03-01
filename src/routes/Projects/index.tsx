@@ -23,8 +23,8 @@ export default function Projects() {
     return (
         <section id="projects-catalog" className="container">
             <h2>Meus Projetos</h2>
-            <div>
-               <CardProject project={project}/> 
+            <div className="cards-projects">
+               <CardProject project={project} /> 
                <CardProject project={project}/>
                <CardProject project={project}/>
                <CardProject project={project}/>

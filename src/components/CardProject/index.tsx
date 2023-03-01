@@ -8,7 +8,7 @@ type Props = {
 
 export function CardProject({ project }: Props) {
     return (
-        <main className="container">
+        <main >
             <div className="card-project-content">
                 <div className="card-project-left">
                     <img src={project.imgUrl}></img>

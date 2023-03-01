@@ -1,15 +1,15 @@
 .card-project-content {
     background-color: var(--color-bg-secundary);
-    max-height: 200px;
-    width: 100%;
-    border-radius: 20px;
+    width: 320px;
+    border-radius: 10px;
     display: flex;
+    flex-direction: column;
 }
 
 
 .card-project-left img{
-    height: 200px;
-    border-radius: 20px 0 0 20px;
+    width: 320px;
+    border-radius: 10px 10px 0 0;
 }
 
 .card-project-rigth {
@@ -17,11 +17,39 @@
 }
 
 .card-project-rigth h3 {
-    font-size: 24px;
+    font-size: 18px;
     color: var(--color-font-secundary);
 }
 
 .card-project-rigth p {
-    font-size: 16px;
+    font-size: 14px;
     color: var(--color-font-secundary);
+}
+
+@media (min-width: 576px){
+    
+    .card-project-content {
+        background-color: var(--color-bg-secundary);
+        max-height: 200px;
+        width: 100%;
+        border-radius: 20px;
+        margin-bottom: 20PX;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .card-project-left img{
+        height: 200px;
+        width: 200px;
+        border-radius: 20px 0 0 20px;
+    }
+
+    .card-project-rigth h3 {
+        font-size: 24px;
+    }
+    
+    .card-project-rigth p {
+        font-size: 16px;
+    }
+    
 }
