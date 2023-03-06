@@ -1,3 +1,5 @@
+import { ProjectDTO } from "../models/project";
+
 export function findAll(): ProjectDTO[] {
     return projects;
 }
