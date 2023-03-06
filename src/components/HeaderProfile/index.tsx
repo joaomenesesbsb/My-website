@@ -16,7 +16,9 @@ export function HeaderProfile() {
                         <Link to={"/projects"}>
                             <div className="nav-item">Projetos</div>
                         </Link>
-                        <div className="nav-item">Curriculo</div>
+                        <Link to={"/curriculum"}>
+                            <div className="nav-item">Curriculo</div>
+                        </Link>
                         <div className="nav-item">Contato</div>
                     </div>
                     <Link to={"/"}>

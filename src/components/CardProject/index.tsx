@@ -1,5 +1,5 @@
 import './styles.css';
-import { ProjectDTO } from '../models/project';
+import { ProjectDTO } from '../../models/project';
 
 type Props = {
     project: ProjectDTO;

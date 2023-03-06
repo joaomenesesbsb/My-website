@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Curriculum from "./routes/Curriculum";
 import HomeUser from "./routes/HomeUser";
 import Projects from "./routes/Projects";
 import UserAboutMe from "./routes/UserAboutMe";
@@ -12,8 +13,8 @@ export default function App() {
       <Route path="/" element={<HomeUser />} >
         <Route index element={<UserAboutMe/>}/>
         <Route path="/projects" element={<Projects />} />
+        <Route path="/curriculum" element={<Curriculum />} />
       </Route>
-      
     </Routes>
   </BrowserRouter>
   )
