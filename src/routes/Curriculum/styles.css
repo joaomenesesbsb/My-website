@@ -6,7 +6,6 @@
 
 .curriculum-title h2 {
     color: var(--color-font-secundary);
-    display: flex;
     text-align: center;
 }
 

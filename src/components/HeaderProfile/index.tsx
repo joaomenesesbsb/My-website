@@ -3,22 +3,25 @@ import userImg from "../../assets/user.jpg";
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import CardContact from '../CardContact';
+import menuImg from '../../assets/menu.png';
 
 export function HeaderProfile() {
 
     const [contact, setContact] = useState({
         visible: false,
-      });
+    });
+
 
     function handleContactClick() {
-        setContact({...contact, visible: true})
+        setContact({ ...contact, visible: true })
     }
 
-    function handleContactClose(){
-        setContact({...contact, visible: false})
+    function handleContactClose() {
+        setContact({ ...contact, visible: false })
     }
 
     return (
+        <main>
         <header>
             <nav className="nav-content container">
                 <div className="nav-left">
@@ -41,13 +44,22 @@ export function HeaderProfile() {
                     </Link>
                 </div>
             </nav>
-
             {
-                contact.visible && 
+                contact.visible &&
                 <CardContact
-                onContactClose={handleContactClose}
-                 />
+                    onContactClose={handleContactClose}
+                />
             }
         </header>
+                <div className="menu-content">
+                    <Link to={"/projects"}>
+                        <div className="nav-item">Projetos</div>
+                    </Link>
+                    <Link to={"/curriculum"}>
+                        <div className="nav-item">Curriculo</div>
+                    </Link>
+                    <div onClick={handleContactClick} className="nav-item">Contato</div>
+                </div>
+        </main>
     )
 }
