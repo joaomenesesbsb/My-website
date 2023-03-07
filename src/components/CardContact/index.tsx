@@ -1,6 +1,7 @@
 import linkedinImg from "../../assets/linkedin.png";
 import siteImg from "../../assets/site.png";
 import emailImg from "../../assets/email.png";
+import gitImg from "../../assets/git.png";
 import phoneImg from "../../assets/phone.png";
 import happyImg from "../../assets/happy.png";
 
@@ -32,6 +33,13 @@ export default function CardContact({ onContactClose }: Props) {
                             <div>
                                 <h5>Site</h5>
                                 <a href="https://joao-website.netlify.app/">joao-website.netlify.app/</a>
+                            </div>
+                        </div>
+                        <div className="info-contact">
+                            <img src={gitImg} alt="git" />
+                            <div>
+                                <h5>Site</h5>
+                                <a href="">Meus Repositorios</a>
                             </div>
                         </div>
                         <div className="info-contact">
