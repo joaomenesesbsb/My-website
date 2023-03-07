@@ -1,0 +1,5 @@
+.card-course {
+    background-color: var(--color-bg-quaternary);
+    color: var(--color-font-secundary);
+    padding: 10px 40px 5px 40px
+}

@@ -3,6 +3,7 @@ import userImg from "../../assets/user.jpg";
 import { Link } from 'react-router-dom';
 
 export function HeaderProfile() {
+
     return (
         <header>
             <nav className="nav-content container">

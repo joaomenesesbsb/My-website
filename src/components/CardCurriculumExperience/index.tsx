@@ -1,5 +1,6 @@
-import { ExperienceDTO } from '../../models/experience';
 import './styles.css';
+import { ExperienceDTO } from '../../models/experience';
+
 
 type Props ={
     experience : ExperienceDTO;
