@@ -44,6 +44,7 @@ header {
   background-color: var(--color-bg-header);
   color: var(--color-font-tertiary);
   width: 100%;
+  padding-bottom: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
