@@ -27,6 +27,7 @@ header {
 
 .nav-item {
     margin-right: 10px;
+    cursor: pointer;
 }
 
 .nav-rigth img {
@@ -44,45 +45,4 @@ header {
 
 /* -------------------------------------------------------------------------- */
 
-.navbar {
-    background-color: #333;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-  }
-  
-  .navbar-toggle {
-    background-color: transparent;
-    border: none;
-    color: #fff;
-    cursor: pointer;
-    font-size: 20px;
-  }
-  
-  .navbar-menu {
-    display: none;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .navbar-menu li {
-    margin: 10px 0;
-  }
-  
-  .navbar-menu li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-  }
-  
-  .navbar-menu li a:hover {
-    text-decoration: underline;
-  }
-  
-  .show-menu {
-    display: block;
-  }
   

@@ -4,19 +4,18 @@ import HomeUser from "./routes/HomeUser";
 import Projects from "./routes/Projects";
 import UserAboutMe from "./routes/UserAboutMe";
 
-
-export default function App() { 
+export default function App() {
 
   return (
-    <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<HomeUser />} >
-        <Route index element={<UserAboutMe/>}/>
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/curriculum" element={<Curriculum />} />
-      </Route>
-    </Routes>
-  </BrowserRouter>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomeUser />} >
+            <Route index element={<UserAboutMe />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/curriculum" element={<Curriculum />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
   )
 }
 

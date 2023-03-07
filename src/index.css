@@ -10,8 +10,8 @@
   --color-font-primary: #609966;
   --color-font-secundary: #40513B;
   --color-font-tertiary: #fff;
-  
-  
+
+
 }
 
 * {
@@ -41,4 +41,55 @@ body {
 
 .mb20 {
   margin-bottom: 20px;
+}
+
+/*--------------------------------------------------------
+----Contact-styles----*/
+
+.card-contact-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card-contact-box {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: var(--color-bg-prymary);
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header-contact {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+ h6{
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.info-contact {
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.info-contact img{
+  height: 30px;
+  margin-right: 10px;
+}
+
+.card-contact-btn {
+  font-weight: 700;
+  cursor: pointer;
 }

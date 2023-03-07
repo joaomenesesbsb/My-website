@@ -1,8 +1,22 @@
 import './styles.css';
 import userImg from "../../assets/user.jpg";
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
+import CardContact from '../CardContact';
 
 export function HeaderProfile() {
+
+    const [contact, setContact] = useState({
+        visible: false,
+      });
+
+    function handleContactClick() {
+        setContact({...contact, visible: true})
+    }
+
+    function handleContactClose(){
+        setContact({...contact, visible: false})
+    }
 
     return (
         <header>
@@ -20,13 +34,20 @@ export function HeaderProfile() {
                         <Link to={"/curriculum"}>
                             <div className="nav-item">Curriculo</div>
                         </Link>
-                        <div className="nav-item">Contato</div>
+                        <div onClick={handleContactClick} className="nav-item">Contato</div>
                     </div>
                     <Link to={"/"}>
                         <img src={userImg} alt="User" />
                     </Link>
                 </div>
             </nav>
+
+            {
+                contact.visible && 
+                <CardContact
+                onContactClose={handleContactClose}
+                 />
+            }
         </header>
     )
 }
