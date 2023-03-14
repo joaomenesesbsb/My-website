@@ -1,5 +1,5 @@
 import { createBrowserHistory } from "history";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import Curriculum from "./routes/Curriculum";
 import HomeUser from "./routes/HomeUser";
 import Projects from "./routes/Projects";
@@ -17,6 +17,7 @@ export default function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/curriculum" element={<Curriculum />} />
           </Route>
+          <Route path="*" element={<Navigate to={"/"} />} />
         </Routes>
     </BrowserRouter>
   )
