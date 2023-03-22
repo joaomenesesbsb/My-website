@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
 :root {
-  --color-bg-prymary: #EDF1D6;
+  --color-bg-primary: #EDF1D6;
   --color-bg-secundary: #9DC08B;
   --color-bg-tertiary: #DDDDDD;
   --color-bg-quaternary: #EEEEEE;
@@ -29,7 +29,7 @@ a:hover {
 
 html,
 body {
-  background-color: var(--color-bg-prymary);
+  background-color: var(--color-bg-primary);
 }
 
 .container {

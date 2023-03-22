@@ -3,7 +3,6 @@ import userImg from "../../assets/user.jpg";
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import CardContact from '../CardContact';
-import menuImg from '../../assets/menu.png';
 
 export function HeaderProfile() {
 
